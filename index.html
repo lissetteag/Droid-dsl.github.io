@@ -59,13 +59,14 @@
                 <h2 class="page-section-heading text-start text-uppercase text-secondary mb-0">About</h2>
                 <!-- Description Section Heading-->
                     <div class="col-lg-15">
-                        <p class="lead" align="justify" ><b>Droid</b> is a framework that automates the <b>configuration</b>, <b>evaluation</b> and <b>synthesis</b> of <b>recommender systems</b> for <b>modelling languages</b>. The framework support:</p>
+                        <p class="lead" align="justify" ><b>Droid</b> is a framework that automates the <b>configuration</b>, <b>evaluation</b> and <b>synthesis</b> of <b>recommender systems</b> for <b>modelling languages</b>. The framework supports:</p>
                         <ul>
-                            <li>The <b>Customisation</b> of Recommender Systems for a particular modelling language</li>
-                            <li> <b>Assistance</b> on the decision of which recommendation method works better for the recommendation task</li>
-                            <li> <b>Generation</b> of customized recommendation services that can be integrated with external modelling tools</li>
+                            <li>The <b>Customisation</b> of recommender systems for a particular modelling language.</li>
+                            <li> <b>Assistance</b> on the decision of which recommendation method works better for the recommendation task.</li>
+                            <li> <b>Generation</b> of customized recommendation services that can be integrated with external modelling tools.</li>
                         </ul>
-                        <p class="lead" align="justify"> <b>Droid</b> is composed mainly of an Eclipse <b>Textual Domain-specific language (DSL)</b> that is the hearth of the <b>Droid configurator</b>. The configurator allows, via the DSL, the configuration of RSs for a particular modelling language, from preference settings to full performance evaluation. The selected recommendation method is deployed as a service; which then heterogeneous modelling clients can integrate. Currently, we provide automated, <b>out-of-the-box integration with the tree editor of the Eclipse Modeling Framework (EMF)</b>. But additionally, the generated recommenders can be integrated with other modelling technologies. </p>
+                        <p class="lead" align="justify"> <b>Droid</b> is composed mainly of an Eclipse <b>Textual Domain-specific language (DSL)</b> that is the hearth of the <b>Droid configurator</b>. The configurator allows, via the DSL, the configuration of RSs for a particular modelling language, from preference settings to full performance evaluation. The selected recommendation method is deployed as a service; which then heterogeneous modelling clients can integrate.</p>
+                        <p class="lead" align="justify"> Currently, we provide automated, <b>out-of-the-box integration with the tree editor of the Eclipse Modeling Framework (EMF)</b>. But additionally, the generated recommenders can be integrated with other modelling technologies. </p>
                     </div>
             </div>
         </section>
@@ -76,25 +77,37 @@
                 <h2 class="page-section-heading text-start text-uppercase text-secondary mb-0">Get started</h2>
                 <!-- Description Section Heading-->
                     <div class="col-lg-15">
-                        <p class="lead" align="justify">The goal of this tutorial is to present an introduction to Droid through a simple example. This tutorial will guide you through the necessary steps to create a Droid project; define a set of recommender systems to generates and evaluates; and show you all the features that Droid provides for the automatic configuration, evaluation and synthesis of recommender systems for modelling languages. </p>
-                        <p class="lead" align="justify">This tutorial is designed for recommender systems developers and users of modelling tools that are interested in geenrating tailored recommender systems for arbitrary languages. Before procesiding with this tutorial you should have a good undestanding of Eclipse Modelling Framework (EMF). If you need more information regarding to EMF you can find it <a href="https://eclipsesource.com/blogs/tutorials/emf-tutorial/">here</a>. A basic understanding of Eclipse IDE is also required because the examples have been compiled using the Eclipse IDE. </p>
-                        <img src="assets/img/getStarted/wizard_1.png" alt="Creating a Droid project.">
-                        <p class="lead" align="justify">add description</p>
-                        <img src="assets/img/getStarted/wizard_2.png" alt="Creating a Droid project.">
-                        <p class="lead" align="justify">add description</p>
-                        <img src="assets/img/getStarted/wizard_3.png" alt="Creating a Droid project.">
-                        <p class="lead" align="justify">add description</p>
-                        <img src="assets/img/getStarted/wizard_4.png" alt="Creating a Droid project.">
-                        <p class="lead" align="justify">add description</p>
-                        <img src="assets/img/getStarted/editor_1.png" alt="Creating a Droid project.">
-                        <p class="lead" align="justify">add description</p>
-                        <img src="assets/img/getStarted/editor_2.png" alt="Creating a Droid project.">
-                        <p class="lead" align="justify">add description</p>
-                        <img src="assets/img/getStarted/editor_3.png" alt="Creating a Droid project.">
-                        <p class="lead" align="justify">add description</p>
-                        <img src="assets/img/getStarted/editor_4.png" alt="Creating a Droid project.">
-                        <p class="lead" align="justify">add description</p>
-                        <img src="assets/img/getStarted/editor_5.png" alt="Creating a Droid project.">
+                        <!-- Goal of tutorial-->
+                        <p class="lead" align="justify">The goal of this tutorial is to present an introduction to Droid through a simple example. This tutorial will guide you through the necessary steps to create a Droid project; define a set of recommender systems to generate and evaluate; and show you all the features that Droid provides for the automatic configuration, evaluation and synthesis of recommender systems for modelling languages. </p>
+                        <p class="lead" align="justify">This tutorial is designed for recommender systems developers and users of modelling tools that are interested in generating tailored recommender systems for arbitrary languages. Before proceeding with this tutorial you should have a good understanding of the Eclipse Modelling Framework (EMF). If you need more information regarding EMF you can find it <a href="https://eclipsesource.com/blogs/tutorials/emf-tutorial/">here</a>. A basic understanding of Eclipse IDE is also required because the examples have been compiled using the Eclipse IDE. </p>
+                        <!-- creating a project-->
+                        <p class="lead2" align="justify"><b>Creating a new Droid Project</b></p>
+                        <p class="lead" align="justify">To create a new <b>Droid project</b> fisrt select File → New → Other… from the main menu. The dialog will offer different project types. Select <b>New Droid Project</b> from the category <b>Droid</b> and continue via Next.</p>
+                        <!-- Figure 1-->
+                        <img src="assets/img/getStarted/wizard_1.png" width="600" height="600">
+                        <br><br><p class="lead" align="justify">The wizard will guide you through the new project creation process. It will require you to introduce <b>the project name</b> and to select the format of the meta-model/models of the language for which the RS is being develop for <b>(Ecore/XMI, Ecore/Ecore, or Ecore/UML)</b>. Additionally, an optional checkbox offers a default set of recommendation setting options. </p>
+                        <!-- Figure 2-->
+                        <img src="assets/img/getStarted/wizard_2.png" width="600" height="600">
+                        <br><br><p class="lead" align="justify">With this initial information, the wizard will require you to provide the necessary data for the training and testing of the recommender systems. If <b>Ecore/XMI</b> option was selected, the wizard will provide you with a meta-model loading page to select the Ecore file. Afterwards, another page will allow you to choose the folder containing the XMI model instances conforming to this particular meta-model. Conversely, if <b>Ecore/Ecore</b> or <b>Ecore/UML</b> has been selected, the wizard will only requered you to select the folder containing the Ecore meta-models/UML models for the training as the meta-model for these cases are automatically registered by Droid.
+                        </p>
+                        <!-- Figure 3-->
+                        <img src="assets/img/getStarted/wizard_3.png" width="600" height="600">
+                        <br><br><p class="lead2" align="justify"><b>Defining a set of recommender systems to generate and evaluate</b></p>
+                        <!-- second part - editor section-->
+                        <!-- Figure 1 e-->
+                        <p class="lead" align="justify">The Droid editor describes the class subject to recommendations, called target; the items to be recommended; and the recommendation configuration settings. This includes the splitting, recommendation methods and evaluation preferences. The following image presents a pre-configured Droid project.</p>
+                        <img src="assets/img/getStarted/editor_1.png" width="900" height="650">
+                        <!-- Figure 2 e-->
+                        <br><br><p class="lead" align="justify">In the editor, you can define the target and items for the recommender systems, as well as the identifiers for each class. You can also modify the proposed setting or leave it with the provided default values. In addition, the Droid IDE provides code completion and code validation.</p>
+                        <img src="assets/img/getStarted/editor_2.png" width="800" height="800">
+                        <!-- Figure 3 e-->
+                        <br><br><p class="lead" align="justify">After defining the necesarry information and saving the file Droid generates a set of Java classes. With this information generated, right click in the <b>.droid</b> file and select -> Droid -> Run to execute Droid.</p>
+                        <img src="assets/img/getStarted/editor_4.png" width="800" height="700">
+                        <!-- about results-->
+                        <br><br><p class="lead2" align="justify"><b>Visualizing the results</b></p>
+                        <!-- Figure 1 r-->
+                        <p class="lead" align="justify">The <b>Results View</b> is automatically populated with the evaluation results in a drill-down table for each recommendation method and metric. The results are grouped by the recommendation methods categories: Collaborative Filtering, Content-Based and Hybrid. The table makes use of different colours to facilitate the comparison of the metric values base on the metric F1. The recommendation methods with results in the top 20% are shown in green; the ones under the median in red; and the rest are shown in orange. </p>
+                        <img src="assets/img/getStarted/results_1.png" width="700" height="950">
                     </div>
             </div>
         </section>
