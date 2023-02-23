@@ -208,7 +208,7 @@ sup {
 }
 
 a {
-  color: #3B1342;
+  color: #F396E7;
   text-decoration: underline;
 }
 a:hover {
@@ -361,6 +361,36 @@ button:not(:disabled),
 ::-moz-focus-inner {
   padding: 0;
   border-style: none;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  border: 1px solid black;
+  padding: 8px;
+  color: white;
+  background-color: #3B1342;
+}
+
+th a {
+  color: #3B1342;
+}
+
+td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #ddd;
 }
 
 textarea {
