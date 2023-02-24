@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- Set the character encoding to UTF-8 -->
         <meta charset="utf-8" />
+        <!-- Set the viewport to ensure consistent scaling on mobile devices -->
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <!-- Set the page description -->
         <meta name="description" content="" />
+        <!-- Set the author of the page -->
         <meta name="author" content="" />
+        <!-- Set the title of the page -->
         <title>Droid DSL</title>
-        <!-- icon-->
+        <!-- Set the icon of the page -->
         <link rel="icon" type="image/x-icon" href="assets/icon.ico" />
-        <!-- Google fonts-->
+        <!-- Import the Google fonts -->
         <link href="https://fonts.google.com/specimen/Press+Start+2P:700,700" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
+        <!-- Import the core theme CSS (includes Bootstrap) -->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
@@ -26,11 +31,10 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#getStarted">Get started</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#updateSite">Update site</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#demo">Demo</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#publications">Publications</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#funding">Funding</a></li> 
-                      <!--   <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="assets/updatesite/droidv1.zip" download="Droid v1.0.0.zip">Update site</a></li> -->
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#updateSite">Update site</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="https://github.com/Droid-dsl/DroidConfigurator" title="About Me">view On Github</a></li>
                     </ul>
                 </div>
@@ -69,8 +73,8 @@
                             <li> <b>Assistance</b> on the decision of which recommendation method works better for the recommendation task</li>
                             <li> <b>Generation</b> of customized recommendation services that can be integrated with external modelling tools</li>
                         </ul>
-                        <p class="lead" align="justify"> <b>Droid</b> is composed mainly of an Eclipse <b>Textual Domain-specific language (DSL)</b> that is the hearth of the <b>Droid configurator</b>. The configurator allows, via the DSL, the configuration of RSs for a particular modelling language, from preference settings to full performance evaluation. The selected recommendation method is deployed as a service; which then heterogeneous modelling clients can integrate.</p>
-                        <p class="lead" align="justify"> Currently, we provide automated, <b>out-of-the-box integration with the tree editor of the Eclipse Modeling Framework (EMF)</b>. But additionally, the generated recommenders can be integrated with other modelling technologies. </p>
+                        <p class="lead" align="justify"> <b>Droid</b> is composed mainly of an Eclipse <b>Textual Domain-specific language (DSL)</b> that is the hearth of the <b>Droid configurator</b>. Droid allows, via the DSL, the configuration of every aspect of the RS including the definition of the type of the recommended modelling elements, gathering and preprocessing of training data, configuration of recommendation methods, and definition of metrics to evaluate the created RS. The selected recommendation method is deployed as a service; which then heterogeneous modelling clients can integrate. Moreover, the language is extensible with new data sources and recommendation methods.</p>
+                        <p class="lead" align="justify"> Currently, we provide automated, <b>out-of-the-box integration with the tree editor of the Eclipse Modeling Framework (EMF)</b>. Additionally, the generated recommenders can be integrated with other modelling technologies. </p>
                     </div>
             </div>
         </section>
@@ -120,14 +124,55 @@
                     </div>
             </div>
         </section>
-          <!-- Demo section-->
+         <!-- Update site-->
+        <section class="page-section" id="updateSite">
+          <div class="container">
+            <!-- Contact Section Heading-->
+            <h2 class="page-section-heading text-start text-uppercase text-secondary mb-0">Eclipse Update Sites</h2>
+            <!-- Description Section Heading-->
+            <div class="col-lg-15">
+              <p class="lead" align="justify"><b>Droid</b> has undergone multiple stages of development since its initial release. To use <b>Droid</b> within Eclipse, you have the option of integrating it through any of the available update sites below.</p>
+              <p class="lead" align="justify">The <b>Development</b> updates contains the most recent stable state of Droid and is regularly updated after a successful modification has been made. On the other hand, the <b>Stable</b> updates features the latest version of Droid that has been released.</p>
+            </div>
+            <!-- Table with Update Site URLs -->
+        <div class="table-container">
+          <table style="table-layout: auto; width: fit-content;">
+            <thead>
+              <tr>
+                <th>Release</th>
+                <th>Eclipse Update Site URL</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Development</td>
+                <td><a href="#develop">https://Droid-dsl.github.io/droid/eclipse/updates/latest/develop/</a></td>
+              </tr>
+              <tr>
+                <td>Stable</td>
+                <td><a href="#stable">https://Droid-dsl.github.io/droid/eclipse/updates/latest/stable/</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+            <!-- Update site installation -->
+            <div class="col-lg-15">
+              <p class="lead" align="justify"> </p>
+              <p class="lead" align="justify">This URL is an Eclipse software repository; you must use it in Eclipse. <a href="https://help.eclipse.org/latest/index.jsp?topic=/org.eclipse.platform.doc.user/tasks/tasks-127.htm">(see how)</a></p>
+              <!-- Embedded PDF -->
+              <div class="text-center">
+                <img src="assets/img/updatesite.png" width="500" height="500">
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Demo section-->
        <section class="page-section" id="demo">
             <div class="container">
-         <!-- Contact Section Heading-->
                 <h1 class="page-section-heading text-start text-uppercase text-secondary mb-0">Building recommender systems for modelling languages with Droid</h1>
-                <!-- Description Section Heading-->
-               <div class="col-lg-15">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/VHiObfKUhS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p class="lead" align="justify">This video shows a tool demo for building recommender systems for modelling languages with Droid. </p>
+               <div class="text-center">
+              <iframe width="710" height="400" src="https://www.youtube.com/embed/VHiObfKUhS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
              </div>
             </div>
         </section>
@@ -139,7 +184,7 @@
                 <!-- Description Section Heading-->
                <div class="col-lg-15">
                     <ul class="lead" align="justify">
-                    <li><b>Building recommender systems for modelling languages with Droid</b>. 2022. Lissette Almonte, Ivan Cantador, Esther Guerra, Juan de Lara. ACM International Conference on Automated Software Engineering (ASE)<a href="http://arantxa.ii.uam.es/~cantador/doc/2022/ase22.pdf"><img src="assets/pdfIcon.png" width="20" height="20"></a></li>
+                    <li><b>Building recommender systems for modelling languages with Droid</b>. 2022. Lissette Almonte, Ivan Cantador, Esther Guerra, Juan de Lara. ACM International Conference on Automated Software Engineering (ASE) <a href="http://arantxa.ii.uam.es/~cantador/doc/2022/ase22.pdf"><img src="assets/pdfIcon.png" width="20" height="20"></a></li>
                     <li><b>Automating the Synthesis of Recommender Systems for Modelling Languages</b>. 2021. Lissette Almonte, Sara Perez-Soler, Esther Guerra, Ivan Cantador, Juan de Lara. ACM SIGPLAN International Conference on Software Language Engineering (SLE) <a href="http://www.miso.es/pubs/SLE21_Droid.pdf"><img src="assets/pdfIcon.png" width="20" height="20"></a></li>                        
                     <li><b>Recommender systems in model-driven engineering</b>. 2021. Lissette Almonte, Esther Guerra, Ivan Cantador, Juan de Lara. Software and Systems Modelling (SoSyM) <a href="https://link.springer.com/article/10.1007/s10270-021-00905-x"><img src="assets/pdfIcon.png" width="20" height="20"></a></li>                  
                     <li><b>Towards automating the construction of recommender systems for low-code development platforms</b>. 2020. Lissette Almonte, Ivan Cantador, Esther Guerra, Juan de Lara. LowCode@MoDELS <a href="https://dl.acm.org/doi/10.1145/3417990.3420200"><img src="assets/pdfIcon.png" width="20" height="20"></a></li>
@@ -148,41 +193,19 @@
             </div>
         </section>
         <!-- Funding-->
-  <section class="page-section" id="funding">
+        <section class="page-section" id="funding">
             <div class="container">
-                <!-- Contact Section Heading-->
                 <h2 class="page-section-heading text-start text-uppercase text-secondary mb-0">Funding</h2>
-                <!-- Description Section Heading-->
-                    <div class="col-lg-15">
-                        <!-- Goal of tutorial-->
-                            <p class="lead" align="justify">This project has received funding from the EU Horizon 2020 research and innovation programme under the Marie Sklodowska-Curie grant agreement No 813884, the Spanish Ministry of Science (RTI2018-095255-B-I00, project “MASSIVE”) and the R&D programme of Madrid (P2018/TCS-4314, project “FORTE”).</p>
-                    </div>
-            </div>
-        </section>
-  <section class="page-section" id="updateSite">
-            <div class="container">
-                <!-- Contact Section Heading-->
-                <h2 class="page-section-heading text-start text-uppercase text-secondary mb-0">Eclipse Update Sites</h2>
-                <!-- Description Section Heading-->
-                    <div class="col-lg-15">
-                        <!-- Goal of tutorial-->
-                        <p class="lead" align="justify"><b>Droid</b> has undergone multiple stages of development since its initial release. To use <b>Droid</b> within Eclipse, you have the option of integrating it through any of the available update sites below.</p>
-                        <p class="lead" align="justify">The <b>Development</b> updates contains the most recent stable state of Droid  and is regularly updated after a successful modification has been made. On the other hand, the <b>Stable</b> updates features the latest version of Droid that has been released.</p>
-                    </div>
-                    <table>
-                        <tr>
-                        <th>Release</th>
-                        <th>Eclipse Update Site URL</th>
-                      </tr>
-                      <tr>
-                        <td>Development</td>
-                        <td><a href="assets/updatesite/droidv1.zip" download="Droid v1.0.0.zip">https://droid-dsl.github.io/droid/eclipse/updates/latest/develop/ </a></td>
-                      </tr>
-                      <tr>
-                        <td>Stable</td>
-                        <td><a href="assets/updatesite/droidv1.zip" download="Droid v1.0.0.zip">https://droid-dsl.github.io/droid/eclipse/updates/latest/stable/</a></td>
-                      </tr>
-                    </table>
+                <div class="col-lg-15">
+                    <p class="lead" align="justify">This project has received funding from:</p>
+                    <ul class="lead" align="justify">
+                        <li>EU Horizon 2020 research and innovation programme under the Marie Sklodowska-Curie grant agreement No 813884</li>
+                        <li>Spanish Ministry of Science (PID2021-122270OB-I00, project “FINESSE”)</li>
+                        <li>Spanish Ministry of Science (TED2021-129381B-C21, project “SATORI-UAM”)</li>
+                        <li>Spanish Ministry of Science (RTI2018-095255-B-I00, project “MASSIVE”)</li>
+                        <li>R&D programme of Madrid (P2018/TCS-4314, project “FORTE”)</li>
+                    </ul>
+                </div>
             </div>
         </section>
         <!-- Copyright Section-->
