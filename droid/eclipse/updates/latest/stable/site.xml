@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/es.uam.miso.droid_1.0.0.202302231500.jar" id="es.uam.miso.droid" version="1.0.0.202302231500">
+   <feature url="features/es.uam.miso.droid_1.0.0.202302241115.jar" id="es.uam.miso.droid" version="1.0.0.202302241115">
       <category name="Droid"/>
    </feature>
    <category-def name="Droid" label="Droid"/>
