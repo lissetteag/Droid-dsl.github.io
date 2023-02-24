@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/es.uam.miso.droid_1.0.0.202302241115.jar" id="es.uam.miso.droid" version="1.0.0.202302241115">
+   <feature url="features/es.uam.miso.droid_1.0.0.202302241146.jar" id="es.uam.miso.droid" version="1.0.0.202302241146">
       <category name="Droid"/>
    </feature>
-   <category-def name="Droid" label="Droid"/>
+   <category-def name="Droid" label="Droid">
+      <description>
+         A model-driven solution to automate the configuration, evaluation and synthesis of recommender systems for modelling languages.
+      </description>
+   </category-def>
 </site>
