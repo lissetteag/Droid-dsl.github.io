@@ -3,7 +3,7 @@
    <description>
       Droid is a model-driven solution to automate the configuration, evaluation and synthesis of recommender systems for modelling languages.
    </description>
-   <feature url="features/es.uam.miso.droid_1.0.0.202302241241.jar" id="es.uam.miso.droid" version="1.0.0.202302241241">
+   <feature url="features/es.uam.miso.droid_1.0.0.202303161720.jar" id="es.uam.miso.droid" version="1.0.0.202303161720">
       <category name="Droid"/>
    </feature>
    <category-def name="Droid" label="Droid"/>
